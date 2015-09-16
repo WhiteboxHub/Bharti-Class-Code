@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite1">
+<listeners>
+<listener class-name="com.test.CustomeReporter"></listener>
+</listeners>
+	<test name="SmokeTest" junit="true">
+		<classes>
+		   <parameter name="myName" value="Bharti"></parameter>
+			<!-- <class name="com.test.ExampleTest"></class> -->
+		  <class name="com.test.PrintMessageTest"></class>
+		</classes>
+	</test>
+	
+</suite>

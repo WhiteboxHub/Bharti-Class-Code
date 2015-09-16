@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite1">
+	<test name="SmokeTest">
+		<groups>
+		
+		<define name="allGroups">
+			<include name="funcTest"></include>
+			<exclude name="checkinTest"></exclude>
+		</define>
+			<run>
+				<include name="allGroups"></include>
+			</run>
+		</groups>
+
+		<classes>
+			<!-- <class name="com.test.ExampleTest"></class> -->
+			<class name="com.test.PrintMessageTest"></class>
+		</classes>
+	</test>
+
+</suite>
