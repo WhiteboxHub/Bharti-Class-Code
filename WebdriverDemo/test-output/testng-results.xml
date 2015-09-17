@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24631" started-at="2015-09-17T18:40:56Z" finished-at="2015-09-17T18:41:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24631" started-at="2015-09-17T18:40:56Z" finished-at="2015-09-17T18:41:21Z">
+      <class name="com.test.RegisterPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.RegisterPageTest@3d3da092]" name="init" is-config="true" duration-ms="14581" started-at="2015-09-17T11:40:56Z" finished-at="2015-09-17T11:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testValidateRegistration()[pri:0, instance:com.test.RegisterPageTest@3d3da092]" name="testValidateRegistration" duration-ms="10007" started-at="2015-09-17T11:41:11Z" finished-at="2015-09-17T11:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateRegistration -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.test.RegisterPageTest@3d3da092]" name="exit" is-config="true" duration-ms="1" started-at="2015-09-17T11:41:21Z" finished-at="2015-09-17T11:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.test.RegisterPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
