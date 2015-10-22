@@ -1,5 +1,7 @@
 package com.main;
 
+import java.io.ByteArrayInputStream;
+
 public class ConstructorExample {
 	
 	int id;
@@ -36,8 +38,11 @@ public class ConstructorExample {
 	}
 	
 	public static void main(String[] args) {
-				ConstructorExample ex1 =  new ConstructorExample(20,"bharti1");
+		ConstructorExample ex = new ConstructorExample();
+		System.out.println(ex.id);
+		
+				/*ConstructorExample ex1 =  new ConstructorExample(20,"bharti1");
 				ConstructorExample ex2 =  new ConstructorExample(ex1);
-				ex2.id = ex1.id;		
+				ex2.id = ex1.id;	*/	
 	}
 }
