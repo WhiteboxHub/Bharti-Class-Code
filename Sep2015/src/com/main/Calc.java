@@ -34,6 +34,8 @@ public class Calc {
 	
 	public static void main(String[] args) {
 		
+		Bank b = new Bank();
+		b.get
 		Calc obj = new Calc();
 		double sum1 = obj.sum();
 		double sum2 = obj.sum(3,54);
