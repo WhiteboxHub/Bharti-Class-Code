@@ -18,7 +18,6 @@ public class Dog extends Animal{
 		public static void main(String[] args) {
 			
 			Animal a = new Dog();
-			a.
 			Dog.eat1(a);
 		}
 }
