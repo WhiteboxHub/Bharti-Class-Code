@@ -7,7 +7,7 @@ public class WarpperExample {
 		int i = 20;
 		Integer l = Integer.valueOf(i);
 	
-		Integer k = i;//autoboxing
+		//Integer k = i;//autoboxing
 		
 		
 		//Wrapper class to primitive types
@@ -15,6 +15,6 @@ public class WarpperExample {
 		Integer p = new Integer(10);
 		int z = p.intValue();
 		
-		int z = p;//unboxing
+		//int z = p;//unboxing
 	}
 }

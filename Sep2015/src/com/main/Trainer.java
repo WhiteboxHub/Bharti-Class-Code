@@ -1,6 +1,6 @@
 package com.main;
 
-public class Trainer extends Employee {
+public class Trainer /*extends Employee */{
 
 	String getAllSubject()
 	{
