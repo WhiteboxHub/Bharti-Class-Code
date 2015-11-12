@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="StringSuite" duration-ms="4211" started-at="2015-11-12T20:05:47Z" finished-at="2015-11-12T20:05:51Z">
+    <groups>
+    </groups>
+    <test name="StringTest" duration-ms="4167" started-at="2015-11-12T20:05:47Z" finished-at="2015-11-12T20:05:51Z">
+      <class name="com.test.StringOperationObjTest">
+        <test-method status="PASS" signature="beforeTestEx()[pri:0, instance:com.test.StringOperationObjTest@769c9116]" name="beforeTestEx" is-config="true" duration-ms="1" started-at="2015-11-12T12:05:47Z" finished-at="2015-11-12T12:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestEx -->
+        <test-method status="PASS" signature="beforeClassEx()[pri:0, instance:com.test.StringOperationObjTest@769c9116]" name="beforeClassEx" is-config="true" duration-ms="0" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassEx -->
+        <test-method status="PASS" signature="testString()[pri:0, instance:com.test.StringOperationObjTest@769c9116]" name="testString" duration-ms="1" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testString -->
+        <test-method status="PASS" signature="afterClassEx()[pri:0, instance:com.test.StringOperationObjTest@769c9116]" name="afterClassEx" is-config="true" duration-ms="0" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassEx -->
+        <test-method status="PASS" signature="afterTestEx()[pri:0, instance:com.test.StringOperationObjTest@769c9116]" name="afterTestEx" is-config="true" duration-ms="0" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestEx -->
+      </class> <!-- com.test.StringOperationObjTest -->
+      <class name="com.test.StringOperationTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.StringOperationTest@d70c109]" name="initialize" is-config="true" duration-ms="1" started-at="2015-11-12T12:05:47Z" finished-at="2015-11-12T12:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="setObject()[pri:0, instance:com.test.StringOperationTest@d70c109]" name="setObject" is-config="true" duration-ms="4126" started-at="2015-11-12T12:05:47Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setObject -->
+        <test-method status="FAIL" signature="checkVowels1()[pri:0, instance:com.test.StringOperationTest@d70c109]" name="checkVowels1" duration-ms="10" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<0> but was:<4>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<0> but was:<4>
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at com.test.StringOperationTest.checkVowels1(StringOperationTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVowels1 -->
+        <test-method status="PASS" signature="clearObj()[pri:0, instance:com.test.StringOperationTest@d70c109]" name="clearObj" is-config="true" duration-ms="2" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObj -->
+        <test-method status="PASS" signature="clear()[pri:0, instance:com.test.StringOperationTest@d70c109]" name="clear" is-config="true" duration-ms="0" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+      </class> <!-- com.test.StringOperationTest -->
+    </test> <!-- StringTest -->
+    <test name="arrayTest" duration-ms="9" started-at="2015-11-12T20:05:51Z" finished-at="2015-11-12T20:05:51Z">
+      <class name="com.test.StringOperationObjTest">
+        <test-method status="PASS" signature="beforeSuiteEx()[pri:0, instance:com.test.StringOperationObjTest@769c9116]" name="beforeSuiteEx" is-config="true" duration-ms="9" started-at="2015-11-12T12:05:47Z" finished-at="2015-11-12T12:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteEx -->
+        <test-method status="PASS" signature="afterSuiteEx()[pri:0, instance:com.test.StringOperationObjTest@769c9116]" name="afterSuiteEx" is-config="true" duration-ms="0" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteEx -->
+      </class> <!-- com.test.StringOperationObjTest -->
+      <class name="com.test.LargestNumberTest">
+        <test-method status="PASS" signature="beforeTestEx()[pri:0, instance:com.test.LargestNumberTest@21a06946]" name="beforeTestEx" is-config="true" duration-ms="1" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestEx -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.test.LargestNumberTest@21a06946]" name="startTime" is-config="true" duration-ms="1" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.LargestNumberTest@21a06946]" name="initialize" is-config="true" duration-ms="2" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getPositiveNumber()[pri:0, instance:com.test.LargestNumberTest@21a06946]" name="getPositiveNumber" duration-ms="2" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPositiveNumber -->
+        <test-method status="PASS" signature="clear()[pri:0, instance:com.test.LargestNumberTest@21a06946]" name="clear" is-config="true" duration-ms="1" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.test.LargestNumberTest@21a06946]" name="endTime" is-config="true" duration-ms="1" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="afterTestEx()[pri:0, instance:com.test.LargestNumberTest@21a06946]" name="afterTestEx" is-config="true" duration-ms="0" started-at="2015-11-12T12:05:51Z" finished-at="2015-11-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestEx -->
+      </class> <!-- com.test.LargestNumberTest -->
+    </test> <!-- arrayTest -->
+  </suite> <!-- StringSuite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="StringSuite">
+	<test name="StringTest">
+	<classes>
+		<class name="com.test.StringOperationTest"></class>
+		<class name="com.test.StringOperationObjTest"></class>
+	</classes>
+	</test>
+	<test name="arrayTest">
+		<classes>
+		<class name="com.test.LargestNumberTest"></class>
+		</classes>
+	</test>
+</suite>	
