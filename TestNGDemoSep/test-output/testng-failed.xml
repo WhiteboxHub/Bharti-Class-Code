@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [StringSuite]">
-  <test name="StringTest(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.test.StringOperationObjTest">
-        <methods>
-          <include name="beforeTestEx"/>
-          <include name="beforeClassEx"/>
-          <include name="afterTestEx"/>
-          <include name="beforeSuiteEx"/>
-          <include name="afterSuiteEx"/>
-          <include name="afterClassEx"/>
-        </methods>
-      </class> <!-- com.test.StringOperationObjTest -->
       <class name="com.test.StringOperationTest">
         <methods>
           <include name="clearObj"/>
-          <include name="checkVowels1"/>
+          <include name="checkVowels"/>
           <include name="setObject"/>
           <include name="clear"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- com.test.StringOperationTest -->
-      <class name="com.test.LargestNumberTest">
-        <methods>
-          <include name="clear"/>
-          <include name="initialize"/>
-          <include name="endTime"/>
-          <include name="startTime"/>
-          <include name="afterTestEx"/>
-          <include name="beforeTestEx"/>
-        </methods>
-      </class> <!-- com.test.LargestNumberTest -->
     </classes>
-  </test> <!-- StringTest(failed) -->
-</suite> <!-- Failed suite [StringSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

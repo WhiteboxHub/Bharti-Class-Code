@@ -31,7 +31,7 @@ public class StringOperationTest {
 		Scanner sc = new Scanner(System.in);
 		str = sc.next();
 	}
-	@Test(enabled=false)
+	@Test
 	public void checkVowels()
 	{
 		System.out.println(" in checkVowels2");
@@ -39,7 +39,7 @@ public class StringOperationTest {
 		assertEquals(4,actual);
 	}
 	
-	@Test(priority=1)
+	@Test(alwaysRun=true,dependsOnMethods={"checkVowels"})
 	public void checkVowels1()
 	{
 		System.out.println(" in checkVowels1");
@@ -47,7 +47,7 @@ public class StringOperationTest {
 		assertEquals(0,actual);
 	}
 	
-	@Test(enabled=false)
+	/*@Test
 	public void checkVowels2()
 	{
 		
@@ -55,7 +55,7 @@ public class StringOperationTest {
 		assertEquals(0,actual);
 	}
 	
-	@Test(enabled=false)
+	@Test
 	public void checkVowels3()
 	{
 		
@@ -63,15 +63,15 @@ public class StringOperationTest {
 		assertEquals(3,actual);
 	}
 	
-	@Test(enabled=false)
+	@Test
 	public void checkVowels4()
 	{
 		
 		int actual = so.countVowels("krshwlll344545$$%&&&aaa");
 		assertEquals(3,actual);
-	}
+	}*/
 	
-	@Test(enabled=false)
+	@Test
 	public void checkVowels5()
 	{
 		
