@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-AutoFrameTestSuite">
-                    <span>C:\Users\Sampath\bhartiWS\AutomationFrameworkDec\testng.xml</span>
+                    <span>C:\Users\Sampath\git\Bharti-Class-Code\AutomationFrameworkDec\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,  1 skipped,  2 passed</span>
+                    <span class="method-stats">4 methods,  2 skipped,  2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -101,7 +101,12 @@
                     <div class="method-list-content skipped suite-AutoFrameTestSuite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AutoFrameTestSuite" title="com.test.LoginPageTest" hash-for-method="testInvalidLogin">testInvalidLogin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-AutoFrameTestSuite" title="com.test.LoginPageTest" hash-for-method="testInvalidLogin(geeta, geeta)">testInvalidLogin(geeta, geeta)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutoFrameTestSuite" title="com.test.LoginPageTest" hash-for-method="testInvalidLogin(nilam, nilam)">testInvalidLogin(nilam, nilam)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-AutoFrameTestSuite -->
@@ -143,9 +148,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testInvalidLogin">
-                  </a> <!-- testInvalidLogin -->
+                  <a name="testInvalidLogin(geeta, geeta)">
+                  </a> <!-- testInvalidLogin(geeta, geeta) -->
                   <span class="method-name">testInvalidLogin</span>
+                  <span class="parameters">(geeta, geeta)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLogin(nilam, nilam)">
+                  </a> <!-- testInvalidLogin(nilam, nilam) -->
+                  <span class="method-name">testInvalidLogin</span>
+                  <span class="parameters">(nilam, nilam)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -175,7 +189,7 @@
         </div> <!-- panel AutoFrameTestSuite -->
         <div panel-name="test-xml-AutoFrameTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Sampath\bhartiWS\AutomationFrameworkDec\testng.xml</span>
+            <span class="header-content">C:\Users\Sampath\git\Bharti-Class-Code\AutomationFrameworkDec\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -225,19 +239,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLoginClick')
 data.setCell(0, 2, 'com.test.HomePageTest')
-data.setCell(0, 3, 901);
+data.setCell(0, 3, 913);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testCountSocialIcons')
 data.setCell(1, 2, 'com.test.HomePageTest')
-data.setCell(1, 3, 211);
+data.setCell(1, 3, 218);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testInvalidLogin')
 data.setCell(2, 2, 'com.test.LoginPageTest')
 data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testInvalidLogin')
+data.setCell(3, 2, 'com.test.LoginPageTest')
+data.setCell(3, 3, 0);
 window.suiteTableData['AutoFrameTestSuite']= { tableData: data, tableDiv: 'times-div-AutoFrameTestSuite'}
 return data;
 }
@@ -257,14 +275,12 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-AutoFrameTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.test.LoginPageTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">quit</span>
-                <br/>
                 <span class="ignored-method-name">setUp</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
@@ -284,15 +300,15 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">8057 ms</span>
+                <span class="method-start">9443 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testCountSocialIcons</span>
-                <span class="method-start">8060 ms</span>
+                <span class="method-start">9446 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLoginClick</span>
-                <span class="method-start">8272 ms</span>
+                <span class="method-start">9666 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -301,11 +317,15 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">initialize</span>
-                <span class="method-start">9174 ms</span>
+                <span class="method-start">10581 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testInvalidLogin</span>
-                <span class="method-start">9184 ms</span>
+                <span class="method-name">testInvalidLogin(geeta, geeta)</span>
+                <span class="method-start">10587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLogin(nilam, nilam)</span>
+                <span class="method-start">10588 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

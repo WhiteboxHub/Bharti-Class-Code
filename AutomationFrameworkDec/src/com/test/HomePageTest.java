@@ -3,6 +3,7 @@ package com.test;
 
 import static org.testng.AssertJUnit.assertEquals;
 
+import org.junit.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -33,6 +34,12 @@ public class HomePageTest extends BaseTest{
 	public void testLoginClick()
 	{
 		String actual = hp.clickLogin();
-		assertEquals("http://whiteboxqa.com/login.php", actual);
+		assertEquals("http://www.whiteboxqa.com/login.php", actual);
+	}
+	
+	@AfterClass
+	public void quit()
+	{
+		driver.quit();
 	}
 }

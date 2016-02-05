@@ -1,7 +1,11 @@
 package com.test;
 
+import org.junit.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import static org.testng.AssertJUnit.assertEquals;
 
 import com.base.BaseTest;
@@ -18,14 +22,28 @@ public class LoginPageTest extends BaseTest {
 		lp = new LoginPage(driver);
 	}
 	
-	@Test
-	public void testInvalidLogin()
+	
+	@DataProvider(name="user-data")
+	public Object[][] getUserData()
 	{
-		String actString = lp.invalidLogin("asdasfda","adsasdasfs");
+		Object[][] data = {{"geeta","geeta"},{"nilam","nilam"}};
+		
+		return data;
+	}
+	
+	@Test(dataProvider="user-data")
+	public void testInvalidLogin(String userName,String pwd)
+	{
+		String actString = lp.invalidLogin(userName,pwd);
 		assertEquals("Something went wrong...Please try again.",actString);
 		
 	}
 	
+	@AfterClass
+	public void quit()
+	{
+		driver.quit();
+	}
 	
 
 }

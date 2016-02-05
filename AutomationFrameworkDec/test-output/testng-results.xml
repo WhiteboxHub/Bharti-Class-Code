@@ -1,41 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="3" passed="2">
+<testng-results skipped="2" failed="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="AutoFrameTestSuite" duration-ms="1136" started-at="2016-02-04T19:59:16Z" finished-at="2016-02-04T19:59:17Z">
+  <suite name="AutoFrameTestSuite" duration-ms="1154" started-at="2016-02-05T19:54:45Z" finished-at="2016-02-05T19:54:46Z">
     <groups>
     </groups>
-    <test name="FunctTest" duration-ms="1136" started-at="2016-02-04T19:59:16Z" finished-at="2016-02-04T19:59:17Z">
+    <test name="FunctTest" duration-ms="1154" started-at="2016-02-05T19:54:45Z" finished-at="2016-02-05T19:54:46Z">
       <class name="com.test.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.HomePageTest@5a42bbf4]" name="setUp" is-config="true" duration-ms="8049" started-at="2016-02-04T11:59:08Z" finished-at="2016-02-04T11:59:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.HomePageTest@de0a01f]" name="setUp" is-config="true" duration-ms="9435" started-at="2016-02-05T11:54:35Z" finished-at="2016-02-05T11:54:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.HomePageTest@5a42bbf4]" name="initialize" is-config="true" duration-ms="2" started-at="2016-02-04T11:59:16Z" finished-at="2016-02-04T11:59:16Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.HomePageTest@de0a01f]" name="initialize" is-config="true" duration-ms="1" started-at="2016-02-05T11:54:45Z" finished-at="2016-02-05T11:54:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testCountSocialIcons()[pri:0, instance:com.test.HomePageTest@5a42bbf4]" name="testCountSocialIcons" duration-ms="211" started-at="2016-02-04T11:59:16Z" finished-at="2016-02-04T11:59:16Z">
+        <test-method status="PASS" signature="testCountSocialIcons()[pri:0, instance:com.test.HomePageTest@de0a01f]" name="testCountSocialIcons" duration-ms="218" started-at="2016-02-05T11:54:45Z" finished-at="2016-02-05T11:54:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountSocialIcons -->
-        <test-method status="PASS" signature="testLoginClick()[pri:0, instance:com.test.HomePageTest@5a42bbf4]" name="testLoginClick" duration-ms="901" started-at="2016-02-04T11:59:16Z" finished-at="2016-02-04T11:59:17Z">
+        <test-method status="PASS" signature="testLoginClick()[pri:0, instance:com.test.HomePageTest@de0a01f]" name="testLoginClick" duration-ms="913" started-at="2016-02-05T11:54:45Z" finished-at="2016-02-05T11:54:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginClick -->
-        <test-method status="SKIP" signature="quit()[pri:0, instance:com.test.HomePageTest@5a42bbf4]" name="quit" is-config="true" duration-ms="0" started-at="2016-02-04T11:59:17Z" finished-at="2016-02-04T11:59:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
       </class> <!-- com.test.HomePageTest -->
       <class name="com.test.LoginPageTest">
-        <test-method status="FAIL" signature="initialize()[pri:0, instance:com.test.LoginPageTest@5fe5c6f]" name="initialize" is-config="true" duration-ms="0" started-at="2016-02-04T11:59:17Z" finished-at="2016-02-04T11:59:17Z">
+        <test-method status="FAIL" signature="initialize()[pri:0, instance:com.test.LoginPageTest@31b7dea0]" name="initialize" is-config="true" duration-ms="0" started-at="2016-02-05T11:54:46Z" finished-at="2016-02-05T11:54:46Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.pages.HomePage.clickLogin(HomePage.java:47)
 	at com.pages.LoginPage.<init>(LoginPage.java:14)
-	at com.test.LoginPageTest.initialize(LoginPageTest.java:18)
+	at com.test.LoginPageTest.initialize(LoginPageTest.java:22)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -66,7 +61,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="SKIP" signature="testInvalidLogin()[pri:0, instance:com.test.LoginPageTest@5fe5c6f]" name="testInvalidLogin" duration-ms="0" started-at="2016-02-04T11:59:17Z" finished-at="2016-02-04T11:59:17Z">
+        <test-method status="SKIP" signature="testInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginPageTest@31b7dea0]" name="testInvalidLogin" duration-ms="0" started-at="2016-02-05T11:54:46Z" data-provider="user-data" finished-at="2016-02-05T11:54:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[geeta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[geeta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="SKIP" signature="testInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginPageTest@31b7dea0]" name="testInvalidLogin" duration-ms="0" started-at="2016-02-05T11:54:46Z" data-provider="user-data" finished-at="2016-02-05T11:54:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nilam]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
