@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34" started-at="2016-03-24T21:28:48Z" finished-at="2016-03-24T21:28:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34" started-at="2016-03-24T21:28:48Z" finished-at="2016-03-24T21:28:48Z">
+      <class name="com.test.PrintMessageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="method2" duration-ms="8" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="method2" duration-ms="8" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="method2" duration-ms="8" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="method2" duration-ms="0" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="method2" duration-ms="4" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="method2" duration-ms="2" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="method2" duration-ms="1" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="method2" duration-ms="1" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="method2" duration-ms="4" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="method2" duration-ms="3" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.PrintMessageTest@52d455b8]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-03-24T14:28:48Z" finished-at="2016-03-24T14:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.PrintMessageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

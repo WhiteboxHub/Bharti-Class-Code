@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="suite1">
+  <test name="smokeTest" junit="true">
+  
+  <parameter name="myStr" value="sivangi"></parameter>
+	<classes>
+	<!--  <class name="com.test.StringOpSmokeTest"></class> -->
+	   <class name="com.test.PrintMessageTest"></class>
+	   <class name="com.test.JunitTest"></class>
+	</classes>
+   </test>
+   
+  <!--  <test name="funcTest">
+	<classes>
+	 <class name="com.test.StringOpTest"></class>
+	  <class name="com.test.PrintMessageTest"></class>
+	</classes>
+   </test> -->
+   
+   <!-- <test name="groupTest">
+     <groups>
+     <run>
+     <include name="selenium-test"/>
+     </run>
+     </groups>
+     
+     <groups>
+	     <define name="all">
+	     <include name="selenium-test"/>
+	     <include name="database"/>
+	     </define>
+	     <run>
+	     <include name="all"/>
+	     </run>
+     </groups>
+     
+     <classes>
+     <class name="com.test.TestGroup"></class>
+     </classes>
+   </test> -->
+</suite>

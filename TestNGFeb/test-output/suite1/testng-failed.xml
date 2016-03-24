@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]">
+  <test name="funcTest(failed)">
+    <classes>
+      <class name="com.test.StringOpTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="method1"/>
+          <include name="createObj"/>
+          <include name="set"/>
+          <include name="method2"/>
+        </methods>
+      </class> <!-- com.test.StringOpTest -->
+      <class name="com.test.StringOpSmokeTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.test.StringOpSmokeTest -->
+    </classes>
+  </test> <!-- funcTest(failed) -->
+</suite> <!-- Failed suite [suite1] -->
