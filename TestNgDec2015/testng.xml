@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNgSuite">
+<!-- <test name="StringOpTest">
+<classes>
+<class name="com.test.StringOperationsTest"></class>
+ <class name="com.test.StringOperationsNegTest"></class>
+</classes>
+</test> -->
+
+<!-- <test name="StringPrintTest">
+<groups>
+<define name="all">
+<include name="functest"></include>
+<include name="checkintest"></include>
+</define>
+<run>
+<include name="all"></include>
+</run>
+</groups>
+<classes>
+<class name="com.test.PrintMessageTest"></class>
+</classes>
+</test> -->
+
+<test name="SortTest" junit="true">
+<parameter name="stringInput" value="bharti"></parameter>
+<classes>
+<class name="com.test.StringSortTest"></class>
+</classes>
+
+</test>
+</suite>
+
+

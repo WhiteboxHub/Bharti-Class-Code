@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNgSuite]">
+  <parameter name="stringInput" value="bharti"/>
+  <test name="SortTest(failed)">
+    <parameter name="stringInput" value="bharti"/>
+    <classes>
+      <class name="com.test.StringSortTest">
+        <methods>
+          <include name="method1"/>
+        </methods>
+      </class> <!-- com.test.StringSortTest -->
+    </classes>
+  </test> <!-- SortTest(failed) -->
+</suite> <!-- Failed suite [TestNgSuite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.test.PrintMessageTest">
+        <methods>
+          <include name="clearString"/>
+          <include name="setGp"/>
+          <include name="get"/>
+          <include name="method1"/>
+          <include name="getString"/>
+          <include name="clear"/>
+          <include name="method4"/>
+          <include name="method3"/>
+        </methods>
+      </class> <!-- com.test.PrintMessageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
