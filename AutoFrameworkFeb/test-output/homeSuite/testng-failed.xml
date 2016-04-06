@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [homeSuite]">
+  <test name="homeTest(failed)">
+    <classes>
+      <class name="com.test.HomePageTest">
+        <methods>
+          <include name="createObj"/>
+          <include name="clear"/>
+          <include name="setup"/>
+          <include name="testNavBar"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.test.HomePageTest -->
+    </classes>
+  </test> <!-- homeTest(failed) -->
+</suite> <!-- Failed suite [homeSuite] -->

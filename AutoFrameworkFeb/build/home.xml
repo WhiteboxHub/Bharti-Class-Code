@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="homeSuite">
+<test name="homeTest">
+<classes>
+<class name="com.test.HomePageTest"></class>
+</classes>
+</test>
+</suite>

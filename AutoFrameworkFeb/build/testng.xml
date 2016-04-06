@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="wbqaSuite">
+<suite-files>
+<suite-file path="home.xml"/>
+<suite-file path="login.xml"/>
+</suite-files>
+</suite>
