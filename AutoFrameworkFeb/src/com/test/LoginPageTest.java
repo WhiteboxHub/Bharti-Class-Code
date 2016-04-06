@@ -3,6 +3,7 @@ package com.test;
 import static org.testng.AssertJUnit.assertTrue;
 
 import org.junit.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -16,7 +17,7 @@ public class LoginPageTest extends BaseTest {
 	LoginPage _lp;
 	
 	
-	@BeforeClass
+	@BeforeTest
 	public void createObj()
 	{
 		_lp = new LoginPage(driver);
@@ -33,6 +34,7 @@ public class LoginPageTest extends BaseTest {
 	@Test(dataProvider="user-data")
 	public void testLogin(String username,String passwd)
 	{
-		assertTrue(_lp.performLogin(username, passwd));
+		boolean isLoggedIn = _lp.performLogin(username, passwd);
+		assertTrue(isLoggedIn);
 	}
 }

@@ -5,9 +5,10 @@
     <classes>
       <class name="com.test.LoginPageTest">
         <methods>
-          <include name="testLogin"/>
+          <include name="testLogin" invocation-numbers="0 1"/>
           <include name="clear"/>
           <include name="setup"/>
+          <include name="createObj"/>
         </methods>
       </class> <!-- com.test.LoginPageTest -->
     </classes>
