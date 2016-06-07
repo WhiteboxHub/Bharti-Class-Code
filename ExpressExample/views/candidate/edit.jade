@@ -1,0 +1,12 @@
+doctype
+html
+   head
+      title Update a Candidate
+      body
+         h3 Candidate Details
+         form(id='form1' method='post' action='/candidate/edit/#{candidate.id}')
+            label(for='Name') Name
+            input(type='text' id='name' name='name' value='#{candidate.name}')
+            label(for='Email') Email
+               input(type='text' id='email' name='email' value='#{candidate.email}')
+               input(type='submit' value='Update')

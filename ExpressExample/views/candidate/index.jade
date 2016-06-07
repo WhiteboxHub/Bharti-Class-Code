@@ -1,0 +1,20 @@
+document
+html
+   head
+   title=title
+   body
+      table
+         each item in candidates
+            tr
+             td
+              a(href='candidate/details/#{item.id}') #{item.id}
+             td #{item.name}
+             td #{item.email}
+             td
+              a(href='candidate/edit/#{item.id}') Edit
+             td
+                a(href='candidate/delete/#{item.id}') Delete
+
+             p
+              a(href='/candidate/create') Create
+

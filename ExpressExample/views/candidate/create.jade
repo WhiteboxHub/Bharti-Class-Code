@@ -1,0 +1,12 @@
+doctype
+html
+   head
+      title Add a Candidate
+      body
+         h3 Candidate Details
+         form(id='form1' method='post' action='/candidate/create')
+            label(for='Name') Name
+            input(type='text' id='name' name='name')
+            label(for='Email') Email
+               input(type='text' id='email' name='email')
+               input(type='submit' value='Create')
